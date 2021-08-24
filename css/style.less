@@ -1,0 +1,44 @@
+// compress: true
+@import "vars";
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: #E5E5E5;
+
+    font-family: 'Source Sans Pro', sans-serif;
+    // font-family: 'Inter', sans-serif;
+
+    font-size: 12px;
+    font-weight: 400;
+    color: @black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Blocks */
+
+@import "./blocks/add.less";
+@import "./blocks/content.less";
+@import "./blocks/wrapper.less";
+@import "./blocks/form.less";
+@import "./blocks/btn.less";
+@import "./blocks/products.less";
+@import "./blocks/filter.less";
